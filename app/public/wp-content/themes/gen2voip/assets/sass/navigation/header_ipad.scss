@@ -1,0 +1,46 @@
+@media only screen and (min-width: $size-ipad) {
+  .header {
+    position: fixed;
+    top: 0;
+
+    justify-content: space-between;
+    &__logo {
+      margin: 0 3rem;
+    }
+
+    &__navigation {
+      display: unset;
+      margin-right: auto;
+    }
+  }
+
+  .navbar {
+    &__navlist {
+      a {
+        color: white !important;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    &__navitem {
+      margin: 0 1rem;
+    }
+
+    &__navlink {
+      color: $color-white;
+      font-weight: bold;
+    }
+  }
+
+  li.menu-item {
+    padding: 1rem 2rem;
+
+    a {
+      color: $color-white;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }
+}

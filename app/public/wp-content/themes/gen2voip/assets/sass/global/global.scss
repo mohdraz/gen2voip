@@ -1,0 +1,22 @@
+h1,
+nav,
+ul,
+li,
+div,
+a {
+  all: unset;
+  color: unset;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background: $color-white;
+
+  color: white !important;
+}
+
+.gen2voip-wrapper {
+  max-width: 1000px;
+}

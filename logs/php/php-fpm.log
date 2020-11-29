@@ -1,2 +1,6 @@
 [07-Nov-2020 11:36:41] NOTICE: fpm is running, pid 41710
 [07-Nov-2020 11:36:41] NOTICE: ready to handle connections
+[07-Nov-2020 17:34:41] WARNING: [pool www] child 41718 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[07-Nov-2020 17:34:41] WARNING: [pool www] child 41718 said into stderr: "libpng warning: iCCP: cHRM chunk does not match sRGB"
+[07-Nov-2020 17:34:50] WARNING: [pool www] child 41717 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[07-Nov-2020 17:34:50] WARNING: [pool www] child 41717 said into stderr: "libpng warning: iCCP: cHRM chunk does not match sRGB"

@@ -1,0 +1,24 @@
+/**
+Theme Name: Gen2Voip Child Theme
+Description: Gen2Voip Child Theme
+Author: Mohammad Raza
+Author URI: https://theme-fusion.com
+Template: twentytwenty
+Version: 1.0.0
+Text Domain:  Gen2Voip
+**/
+
+// global
+@import "./global/variables.scss";
+@import "./global/global.scss";
+
+// navigation
+
+@import "./navigation/header.scss";
+@import "./navigation/mobile_navigation.scss";
+@import "./navigation/header_ipad.scss";
+@import "./navigation/header_hd.scss";
+
+// layouts
+@import "./layouts/sections.scss";
+@import "./layouts/footer.scss";

@@ -1,0 +1,34 @@
+#site-header {
+  background: $color-black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5000;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 3rem 2rem;
+
+  &__logo {
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    a {
+      color: $color-white;
+    }
+  }
+
+  &__navigation {
+    // color: white;
+    display: none;
+  }
+
+  &__contact {
+    display: none;
+  }
+}
